@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all 0.2S ease-in;
+}
+
+html,
+body {
+  height: 100%
+}
+
+html {
+  font-size: 50%;
+  overflow: hidden
+}
+
+body {
+  padding: 1rem;
+  background: linear-gradient(50deg, rgba(18, 5, 5, 0.874), rgb(2, 22, 71)), url(bappie-L_rNhnpWkD0-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 900;
+  text-decoration: underline;
+  color: rgba(240, 248, 255, 0.952);
+  border-bottom: 3px solid rgba(227, 225, 225, 0.64);
+}
+
+#container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+#contador {
+  padding: 3rem 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  color: aliceblue;
+  background-color: rgb(33, 59, 59);
+  border-radius: 1rem;
+  box-shadow: 0px 6px 20px rgba(1, 1, 1, 0.697);
+}
+
+#showTime {
+  font-size: 13rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box_btn {
+  display: flex;
+  gap: 3rem
+}
+
+button {
+  padding: 0.4rem 2rem;
+  font-size: 3rem;
+  border: 3px solid white;
+  border-radius: 8px;
+  font-weight: 600;
+  color: rgba(240, 248, 255, 0.901);
+}
+
+#start {
+  background-color: rgb(14, 61, 143);
+}
+
+#start:hover {
+  background-color: rgb(35, 105, 202);
+}
+
+#reset {
+  background-color: rgb(178, 109, 12);
+}
+
+#reset:hover {
+  background-color: rgb(210, 141, 44);
+}
+
+#stop {
+  background-color: rgb(142, 30, 30);
+}
+
+#stop:hover {
+  background-color: rgb(199, 52, 52);
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 455px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 365px) {
+  html {
+    font-size: 36%;
+  }
+}
